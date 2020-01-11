@@ -1,27 +1,6 @@
 import React from "react";
 import PropType from "prop-types";
-import { Card, Empty, Row, Col } from "antd";
-
-const generatePokemonCards = pokemons => {
-  return pokemons.map(pokemon => {
-    return (
-      <Col xs={12} sm={4} key={pokemon.number}>
-        <Card title={pokemon.name} style={{ marginBottom: "10px" }}>
-          <div
-            style={{
-              width: "100%",
-              paddingBottom: "100%",
-              backgroundPosition: "center center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "contain",
-              backgroundImage: `url(${pokemon.image})`
-            }}
-          />
-        </Card>
-      </Col>
-    );
-  });
-};
+import { Card, Empty, Row, Col, Button } from "antd";
 
 function PokemonList(props) {
   const { pokemons } = props;
@@ -30,7 +9,40 @@ function PokemonList(props) {
     return <Empty />;
   }
 
-  return <Row gutter={10}>{generatePokemonCards(pokemons)}</Row>;
+  return (
+    <Row gutter={10}>
+      {pokemons.map(pokemon => {
+        return (
+          <Col xs={12} sm={4} key={pokemon.number}>
+            <Card title={pokemon.name} style={{ marginBottom: "10px" }}>
+              <div
+                style={{
+                  width: "100%",
+                  paddingBottom: "100%",
+                  marginBottom: "10px",
+                  backgroundPosition: "center center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "contain",
+                  backgroundImage: `url(${pokemon.image})`
+                }}
+              />
+              <footer>
+                <Button
+                  type="primary"
+                  block
+                  onClick={() => {
+                    props.onDetail(pokemon);
+                  }}
+                >
+                  Detail
+                </Button>
+              </footer>
+            </Card>
+          </Col>
+        );
+      })}
+    </Row>
+  );
 }
 
 PokemonList.propTypes = {
@@ -42,11 +54,13 @@ PokemonList.propTypes = {
       weaknesses: PropType.arrayOf(PropType.string),
       resistant: PropType.arrayOf(PropType.string)
     })
-  )
+  ),
+  onDetail: PropType.func
 };
 
 PokemonList.defaultProps = {
-  pokemons: []
+  pokemons: [],
+  onDetail: () => {}
 };
 
 export default PokemonList;

@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col, Card, Form, Select, Button, Modal, Tag } from "antd";
 import PokemonListComponent from "../component/PokemonList";
+import PokemonDetailComponent from "../component/PokemonDetail";
 import pokemonList from "../_mock/pokemonList.json";
 
 // populate pokemon type from available pokemon list
@@ -80,79 +81,13 @@ function HomeScreen() {
 
   return (
     <>
-      <Modal
-        title={`${selectedPokemon.number} - ${selectedPokemon.name}`}
-        visible={modalShown}
-        onCancel={() => {
+      <PokemonDetailComponent
+        selectedPokemon={selectedPokemon}
+        modalShown={modalShown}
+        onClose={() => {
           setModalShown(false);
         }}
-        footer={[
-          <Button
-            key="Return"
-            onClick={() => {
-              setModalShown(false);
-            }}
-          >
-            Return
-          </Button>
-        ]}
-      >
-        <Row gutter={10}>
-          <Col xs={8}>
-            <img src={selectedPokemon.image} alt={selectedPokemon.name} />
-          </Col>
-          <Col xs={16}>
-            <p>
-              <b>Number:</b>
-              <br />
-              <span>{selectedPokemon.number}</span>
-            </p>
-            <p>
-              <b>Name:</b>
-              <br />
-              <span>{selectedPokemon.name}</span>
-            </p>
-            <p>
-              <b>Classification:</b>
-              <br />
-              <span>{selectedPokemon.classification}</span>
-            </p>
-            <p>
-              <b>Type:</b>
-              <br />
-              <span>
-                {selectedPokemon.types &&
-                  selectedPokemon.types.length &&
-                  selectedPokemon.types.map(type => {
-                    return <Tag key={type}>{type}</Tag>;
-                  })}
-              </span>
-            </p>
-            <p>
-              <b>Weakness:</b>
-              <br />
-              <span>
-                {selectedPokemon.weaknesses &&
-                  selectedPokemon.weaknesses.length &&
-                  selectedPokemon.weaknesses.map(type => {
-                    return <Tag key={type}>{type}</Tag>;
-                  })}
-              </span>
-            </p>
-            <p>
-              <b>Resistant:</b>
-              <br />
-              <span>
-                {selectedPokemon.resistant &&
-                  selectedPokemon.resistant.length &&
-                  selectedPokemon.resistant.map(type => {
-                    return <Tag key={type}>{type}</Tag>;
-                  })}
-              </span>
-            </p>
-          </Col>
-        </Row>
-      </Modal>
+      />
       <Row gutter={10}>
         <Col sm={4} style={{ marginBottom: 10 }}>
           <Card title="Filter">
