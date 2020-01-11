@@ -1,0 +1,3143 @@
+{
+  "data": {
+    "pokemons": [
+      {
+        "number": "001",
+        "name": "Bulbasaur",
+        "image": "https://img.pokemondb.net/artwork/bulbasaur.jpg",
+        "types": [
+          "Grass",
+          "Poison"
+        ],
+        "classification": "Seed Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Ice",
+          "Flying",
+          "Psychic"
+        ],
+        "resistant": [
+          "Water",
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "002",
+        "name": "Ivysaur",
+        "image": "https://img.pokemondb.net/artwork/ivysaur.jpg",
+        "types": [
+          "Grass",
+          "Poison"
+        ],
+        "classification": "Seed Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Ice",
+          "Flying",
+          "Psychic"
+        ],
+        "resistant": [
+          "Water",
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "003",
+        "name": "Venusaur",
+        "image": "https://img.pokemondb.net/artwork/venusaur.jpg",
+        "types": [
+          "Grass",
+          "Poison"
+        ],
+        "classification": "Seed Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Ice",
+          "Flying",
+          "Psychic"
+        ],
+        "resistant": [
+          "Water",
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "004",
+        "name": "Charmander",
+        "image": "https://img.pokemondb.net/artwork/charmander.jpg",
+        "types": [
+          "Fire"
+        ],
+        "classification": "Lizard Pokémon",
+        "weaknesses": [
+          "Water",
+          "Ground",
+          "Rock"
+        ],
+        "resistant": [
+          "Fire",
+          "Grass",
+          "Ice",
+          "Bug",
+          "Steel",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "005",
+        "name": "Charmeleon",
+        "image": "https://img.pokemondb.net/artwork/charmeleon.jpg",
+        "types": [
+          "Fire"
+        ],
+        "classification": "Flame Pokémon",
+        "weaknesses": [
+          "Water",
+          "Ground",
+          "Rock"
+        ],
+        "resistant": [
+          "Fire",
+          "Grass",
+          "Ice",
+          "Bug",
+          "Steel",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "006",
+        "name": "Charizard",
+        "image": "https://img.pokemondb.net/artwork/charizard.jpg",
+        "types": [
+          "Fire",
+          "Flying"
+        ],
+        "classification": "Flame Pokémon",
+        "weaknesses": [
+          "Water",
+          "Electric",
+          "Rock"
+        ],
+        "resistant": [
+          "Fire",
+          "Grass",
+          "Fighting",
+          "Bug",
+          "Steel",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "007",
+        "name": "Squirtle",
+        "image": "https://img.pokemondb.net/artwork/squirtle.jpg",
+        "types": [
+          "Water"
+        ],
+        "classification": "Tiny Turtle Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Steel"
+        ]
+      },
+      {
+        "number": "008",
+        "name": "Wartortle",
+        "image": "https://img.pokemondb.net/artwork/wartortle.jpg",
+        "types": [
+          "Water"
+        ],
+        "classification": "Turtle Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Steel"
+        ]
+      },
+      {
+        "number": "009",
+        "name": "Blastoise",
+        "image": "https://img.pokemondb.net/artwork/blastoise.jpg",
+        "types": [
+          "Water"
+        ],
+        "classification": "Shellfish Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Steel"
+        ]
+      },
+      {
+        "number": "010",
+        "name": "Caterpie",
+        "image": "https://img.pokemondb.net/artwork/caterpie.jpg",
+        "types": [
+          "Bug"
+        ],
+        "classification": "Worm Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Flying",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Ground"
+        ]
+      },
+      {
+        "number": "011",
+        "name": "Metapod",
+        "image": "https://img.pokemondb.net/artwork/metapod.jpg",
+        "types": [
+          "Bug"
+        ],
+        "classification": "Cocoon Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Flying",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Ground"
+        ]
+      },
+      {
+        "number": "012",
+        "name": "Butterfree",
+        "image": "https://img.pokemondb.net/artwork/butterfree.jpg",
+        "types": [
+          "Bug",
+          "Flying"
+        ],
+        "classification": "Butterfly Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Electric",
+          "Ice",
+          "Flying",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Ground",
+          "Bug"
+        ]
+      },
+      {
+        "number": "013",
+        "name": "Weedle",
+        "image": "https://img.pokemondb.net/artwork/weedle.jpg",
+        "types": [
+          "Bug",
+          "Poison"
+        ],
+        "classification": "Hairy Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Flying",
+          "Psychic",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "014",
+        "name": "Kakuna",
+        "image": "https://img.pokemondb.net/artwork/kakuna.jpg",
+        "types": [
+          "Bug",
+          "Poison"
+        ],
+        "classification": "Cocoon Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Flying",
+          "Psychic",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "015",
+        "name": "Beedrill",
+        "image": "https://img.pokemondb.net/artwork/beedrill.jpg",
+        "types": [
+          "Bug",
+          "Poison"
+        ],
+        "classification": "Poison Bee Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Flying",
+          "Psychic",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "016",
+        "name": "Pidgey",
+        "image": "https://img.pokemondb.net/artwork/pidgey.jpg",
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "classification": "Tiny Bird Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Ice",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Ground",
+          "Bug",
+          "Ghost"
+        ]
+      },
+      {
+        "number": "017",
+        "name": "Pidgeotto",
+        "image": "https://img.pokemondb.net/artwork/pidgeotto.jpg",
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "classification": "Bird Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Ice",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Ground",
+          "Bug",
+          "Ghost"
+        ]
+      },
+      {
+        "number": "018",
+        "name": "Pidgeot",
+        "image": "https://img.pokemondb.net/artwork/pidgeot.jpg",
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "classification": "Bird Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Ice",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Ground",
+          "Bug",
+          "Ghost"
+        ]
+      },
+      {
+        "number": "019",
+        "name": "Rattata",
+        "image": "https://img.pokemondb.net/artwork/rattata.jpg",
+        "types": [
+          "Normal"
+        ],
+        "classification": "Mouse Pokémon",
+        "weaknesses": [
+          "Fighting"
+        ],
+        "resistant": [
+          "Ghost"
+        ]
+      },
+      {
+        "number": "020",
+        "name": "Raticate",
+        "image": "https://img.pokemondb.net/artwork/raticate.jpg",
+        "types": [
+          "Normal"
+        ],
+        "classification": "Mouse Pokémon",
+        "weaknesses": [
+          "Fighting"
+        ],
+        "resistant": [
+          "Ghost"
+        ]
+      },
+      {
+        "number": "021",
+        "name": "Spearow",
+        "image": "https://img.pokemondb.net/artwork/spearow.jpg",
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "classification": "Tiny Bird Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Ice",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Ground",
+          "Bug",
+          "Ghost"
+        ]
+      },
+      {
+        "number": "022",
+        "name": "Fearow",
+        "image": "https://img.pokemondb.net/artwork/fearow.jpg",
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "classification": "Beak Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Ice",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Ground",
+          "Bug",
+          "Ghost"
+        ]
+      },
+      {
+        "number": "023",
+        "name": "Ekans",
+        "image": "https://img.pokemondb.net/artwork/ekans.jpg",
+        "types": [
+          "Poison"
+        ],
+        "classification": "Snake Pokémon",
+        "weaknesses": [
+          "Ground",
+          "Psychic"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "024",
+        "name": "Arbok",
+        "image": "https://img.pokemondb.net/artwork/arbok.jpg",
+        "types": [
+          "Poison"
+        ],
+        "classification": "Cobra Pokémon",
+        "weaknesses": [
+          "Ground",
+          "Psychic"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "025",
+        "name": "Pikachu",
+        "image": "https://img.pokemondb.net/artwork/pikachu.jpg",
+        "types": [
+          "Electric"
+        ],
+        "classification": "Mouse Pokémon",
+        "weaknesses": [
+          "Ground"
+        ],
+        "resistant": [
+          "Electric",
+          "Flying",
+          "Steel"
+        ]
+      },
+      {
+        "number": "026",
+        "name": "Raichu",
+        "image": "https://img.pokemondb.net/artwork/raichu.jpg",
+        "types": [
+          "Electric"
+        ],
+        "classification": "Mouse Pokémon",
+        "weaknesses": [
+          "Ground"
+        ],
+        "resistant": [
+          "Electric",
+          "Flying",
+          "Steel"
+        ]
+      },
+      {
+        "number": "027",
+        "name": "Sandshrew",
+        "image": "https://img.pokemondb.net/artwork/sandshrew.jpg",
+        "types": [
+          "Ground"
+        ],
+        "classification": "Mouse Pokémon",
+        "weaknesses": [
+          "Water",
+          "Grass",
+          "Ice"
+        ],
+        "resistant": [
+          "Electric",
+          "Poison",
+          "Rock"
+        ]
+      },
+      {
+        "number": "028",
+        "name": "Sandslash",
+        "image": "https://img.pokemondb.net/artwork/sandslash.jpg",
+        "types": [
+          "Ground"
+        ],
+        "classification": "Mouse Pokémon",
+        "weaknesses": [
+          "Water",
+          "Grass",
+          "Ice"
+        ],
+        "resistant": [
+          "Electric",
+          "Poison",
+          "Rock"
+        ]
+      },
+      {
+        "number": "029",
+        "name": "Nidoran-F",
+        "image": "https://img.pokemondb.net/artwork/nidoran-f.jpg",
+        "types": [
+          "Poison"
+        ],
+        "classification": "Poison Pin Pokémon",
+        "weaknesses": [
+          "Ground",
+          "Psychic"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "030",
+        "name": "Nidorina",
+        "image": "https://img.pokemondb.net/artwork/nidorina.jpg",
+        "types": [
+          "Poison"
+        ],
+        "classification": "Poison Pin Pokémon",
+        "weaknesses": [
+          "Ground",
+          "Psychic"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "031",
+        "name": "Nidoqueen",
+        "image": "https://img.pokemondb.net/artwork/nidoqueen.jpg",
+        "types": [
+          "Poison",
+          "Ground"
+        ],
+        "classification": "Drill Pokémon",
+        "weaknesses": [
+          "Water",
+          "Ice",
+          "Ground",
+          "Psychic"
+        ],
+        "resistant": [
+          "Electric",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Rock",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "032",
+        "name": "Nidoran-M",
+        "image": "https://img.pokemondb.net/artwork/nidoran-m.jpg",
+        "types": [
+          "Poison"
+        ],
+        "classification": "Poison Pin Pokémon",
+        "weaknesses": [
+          "Ground",
+          "Psychic"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "033",
+        "name": "Nidorino",
+        "image": "https://img.pokemondb.net/artwork/nidorino.jpg",
+        "types": [
+          "Poison"
+        ],
+        "classification": "Poison Pin Pokémon",
+        "weaknesses": [
+          "Ground",
+          "Psychic"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "034",
+        "name": "Nidoking",
+        "image": "https://img.pokemondb.net/artwork/nidoking.jpg",
+        "types": [
+          "Poison",
+          "Ground"
+        ],
+        "classification": "Drill Pokémon",
+        "weaknesses": [
+          "Water",
+          "Ice",
+          "Ground",
+          "Psychic"
+        ],
+        "resistant": [
+          "Electric",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Rock",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "035",
+        "name": "Clefairy",
+        "image": "https://img.pokemondb.net/artwork/clefairy.jpg",
+        "types": [
+          "Fairy"
+        ],
+        "classification": "Fairy Pokémon",
+        "weaknesses": [
+          "Poison",
+          "Steel"
+        ],
+        "resistant": [
+          "Fighting",
+          "Bug",
+          "Dragon",
+          "Dark"
+        ]
+      },
+      {
+        "number": "036",
+        "name": "Clefable",
+        "image": "https://img.pokemondb.net/artwork/clefable.jpg",
+        "types": [
+          "Fairy"
+        ],
+        "classification": "Fairy Pokémon",
+        "weaknesses": [
+          "Poison",
+          "Steel"
+        ],
+        "resistant": [
+          "Fighting",
+          "Bug",
+          "Dragon",
+          "Dark"
+        ]
+      },
+      {
+        "number": "037",
+        "name": "Vulpix",
+        "image": "https://img.pokemondb.net/artwork/vulpix.jpg",
+        "types": [
+          "Fire"
+        ],
+        "classification": "Fox Pokémon",
+        "weaknesses": [
+          "Water",
+          "Ground",
+          "Rock"
+        ],
+        "resistant": [
+          "Fire",
+          "Grass",
+          "Ice",
+          "Bug",
+          "Steel",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "038",
+        "name": "Ninetales",
+        "image": "https://img.pokemondb.net/artwork/ninetales.jpg",
+        "types": [
+          "Fire"
+        ],
+        "classification": "Fox Pokémon",
+        "weaknesses": [
+          "Water",
+          "Ground",
+          "Rock"
+        ],
+        "resistant": [
+          "Fire",
+          "Grass",
+          "Ice",
+          "Bug",
+          "Steel",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "039",
+        "name": "Jigglypuff",
+        "image": "https://img.pokemondb.net/artwork/jigglypuff.jpg",
+        "types": [
+          "Normal",
+          "Fairy"
+        ],
+        "classification": "Balloon Pokémon",
+        "weaknesses": [
+          "Poison",
+          "Steel"
+        ],
+        "resistant": [
+          "Bug",
+          "Ghost",
+          "Dragon",
+          "Dark"
+        ]
+      },
+      {
+        "number": "040",
+        "name": "Wigglytuff",
+        "image": "https://img.pokemondb.net/artwork/wigglytuff.jpg",
+        "types": [
+          "Normal",
+          "Fairy"
+        ],
+        "classification": "Balloon Pokémon",
+        "weaknesses": [
+          "Poison",
+          "Steel"
+        ],
+        "resistant": [
+          "Bug",
+          "Ghost",
+          "Dragon",
+          "Dark"
+        ]
+      },
+      {
+        "number": "041",
+        "name": "Zubat",
+        "image": "https://img.pokemondb.net/artwork/zubat.jpg",
+        "types": [
+          "Poison",
+          "Flying"
+        ],
+        "classification": "Bat Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Ice",
+          "Psychic",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "042",
+        "name": "Golbat",
+        "image": "https://img.pokemondb.net/artwork/golbat.jpg",
+        "types": [
+          "Poison",
+          "Flying"
+        ],
+        "classification": "Bat Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Ice",
+          "Psychic",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "043",
+        "name": "Oddish",
+        "image": "https://img.pokemondb.net/artwork/oddish.jpg",
+        "types": [
+          "Grass",
+          "Poison"
+        ],
+        "classification": "Weed Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Ice",
+          "Flying",
+          "Psychic"
+        ],
+        "resistant": [
+          "Water",
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "044",
+        "name": "Gloom",
+        "image": "https://img.pokemondb.net/artwork/gloom.jpg",
+        "types": [
+          "Grass",
+          "Poison"
+        ],
+        "classification": "Weed Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Ice",
+          "Flying",
+          "Psychic"
+        ],
+        "resistant": [
+          "Water",
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "045",
+        "name": "Vileplume",
+        "image": "https://img.pokemondb.net/artwork/vileplume.jpg",
+        "types": [
+          "Grass",
+          "Poison"
+        ],
+        "classification": "Flower Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Ice",
+          "Flying",
+          "Psychic"
+        ],
+        "resistant": [
+          "Water",
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "046",
+        "name": "Paras",
+        "image": "https://img.pokemondb.net/artwork/paras.jpg",
+        "types": [
+          "Bug",
+          "Grass"
+        ],
+        "classification": "Mushroom Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Ice",
+          "Poison",
+          "Flying",
+          "Bug",
+          "Rock"
+        ],
+        "resistant": [
+          "Water",
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Ground"
+        ]
+      },
+      {
+        "number": "047",
+        "name": "Parasect",
+        "image": "https://img.pokemondb.net/artwork/parasect.jpg",
+        "types": [
+          "Bug",
+          "Grass"
+        ],
+        "classification": "Mushroom Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Ice",
+          "Poison",
+          "Flying",
+          "Bug",
+          "Rock"
+        ],
+        "resistant": [
+          "Water",
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Ground"
+        ]
+      },
+      {
+        "number": "048",
+        "name": "Venonat",
+        "image": "https://img.pokemondb.net/artwork/venonat.jpg",
+        "types": [
+          "Bug",
+          "Poison"
+        ],
+        "classification": "Insect Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Flying",
+          "Psychic",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "049",
+        "name": "Venomoth",
+        "image": "https://img.pokemondb.net/artwork/venomoth.jpg",
+        "types": [
+          "Bug",
+          "Poison"
+        ],
+        "classification": "Poison Moth Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Flying",
+          "Psychic",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "050",
+        "name": "Diglett",
+        "image": "https://img.pokemondb.net/artwork/diglett.jpg",
+        "types": [
+          "Ground"
+        ],
+        "classification": "Mole Pokémon",
+        "weaknesses": [
+          "Water",
+          "Grass",
+          "Ice"
+        ],
+        "resistant": [
+          "Electric",
+          "Poison",
+          "Rock"
+        ]
+      },
+      {
+        "number": "051",
+        "name": "Dugtrio",
+        "image": "https://img.pokemondb.net/artwork/dugtrio.jpg",
+        "types": [
+          "Ground"
+        ],
+        "classification": "Mole Pokémon",
+        "weaknesses": [
+          "Water",
+          "Grass",
+          "Ice"
+        ],
+        "resistant": [
+          "Electric",
+          "Poison",
+          "Rock"
+        ]
+      },
+      {
+        "number": "052",
+        "name": "Meowth",
+        "image": "https://img.pokemondb.net/artwork/meowth.jpg",
+        "types": [
+          "Normal"
+        ],
+        "classification": "Scratch Cat Pokémon",
+        "weaknesses": [
+          "Fighting"
+        ],
+        "resistant": [
+          "Ghost"
+        ]
+      },
+      {
+        "number": "053",
+        "name": "Persian",
+        "image": "https://img.pokemondb.net/artwork/persian.jpg",
+        "types": [
+          "Normal"
+        ],
+        "classification": "Classy Cat Pokémon",
+        "weaknesses": [
+          "Fighting"
+        ],
+        "resistant": [
+          "Ghost"
+        ]
+      },
+      {
+        "number": "054",
+        "name": "Psyduck",
+        "image": "https://img.pokemondb.net/artwork/psyduck.jpg",
+        "types": [
+          "Water"
+        ],
+        "classification": "Duck Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Steel"
+        ]
+      },
+      {
+        "number": "055",
+        "name": "Golduck",
+        "image": "https://img.pokemondb.net/artwork/golduck.jpg",
+        "types": [
+          "Water"
+        ],
+        "classification": "Duck Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Steel"
+        ]
+      },
+      {
+        "number": "056",
+        "name": "Mankey",
+        "image": "https://img.pokemondb.net/artwork/mankey.jpg",
+        "types": [
+          "Fighting"
+        ],
+        "classification": "Pig Monkey Pokémon",
+        "weaknesses": [
+          "Flying",
+          "Psychic",
+          "Fairy"
+        ],
+        "resistant": [
+          "Bug",
+          "Rock",
+          "Dark"
+        ]
+      },
+      {
+        "number": "057",
+        "name": "Primeape",
+        "image": "https://img.pokemondb.net/artwork/primeape.jpg",
+        "types": [
+          "Fighting"
+        ],
+        "classification": "Pig Monkey Pokémon",
+        "weaknesses": [
+          "Flying",
+          "Psychic",
+          "Fairy"
+        ],
+        "resistant": [
+          "Bug",
+          "Rock",
+          "Dark"
+        ]
+      },
+      {
+        "number": "058",
+        "name": "Growlithe",
+        "image": "https://img.pokemondb.net/artwork/growlithe.jpg",
+        "types": [
+          "Fire"
+        ],
+        "classification": "Puppy Pokémon",
+        "weaknesses": [
+          "Water",
+          "Ground",
+          "Rock"
+        ],
+        "resistant": [
+          "Fire",
+          "Grass",
+          "Ice",
+          "Bug",
+          "Steel",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "059",
+        "name": "Arcanine",
+        "image": "https://img.pokemondb.net/artwork/arcanine.jpg",
+        "types": [
+          "Fire"
+        ],
+        "classification": "Legendary Pokémon",
+        "weaknesses": [
+          "Water",
+          "Ground",
+          "Rock"
+        ],
+        "resistant": [
+          "Fire",
+          "Grass",
+          "Ice",
+          "Bug",
+          "Steel",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "060",
+        "name": "Poliwag",
+        "image": "https://img.pokemondb.net/artwork/poliwag.jpg",
+        "types": [
+          "Water"
+        ],
+        "classification": "Tadpole Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Steel"
+        ]
+      },
+      {
+        "number": "061",
+        "name": "Poliwhirl",
+        "image": "https://img.pokemondb.net/artwork/poliwhirl.jpg",
+        "types": [
+          "Water"
+        ],
+        "classification": "Tadpole Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Steel"
+        ]
+      },
+      {
+        "number": "062",
+        "name": "Poliwrath",
+        "image": "https://img.pokemondb.net/artwork/poliwrath.jpg",
+        "types": [
+          "Water",
+          "Fighting"
+        ],
+        "classification": "Tadpole Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass",
+          "Flying",
+          "Psychic",
+          "Fairy"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Bug",
+          "Rock",
+          "Dark",
+          "Steel"
+        ]
+      },
+      {
+        "number": "063",
+        "name": "Abra",
+        "image": "https://img.pokemondb.net/artwork/abra.jpg",
+        "types": [
+          "Psychic"
+        ],
+        "classification": "Psi Pokémon",
+        "weaknesses": [
+          "Bug",
+          "Ghost",
+          "Dark"
+        ],
+        "resistant": [
+          "Fighting",
+          "Psychic"
+        ]
+      },
+      {
+        "number": "064",
+        "name": "Kadabra",
+        "image": "https://img.pokemondb.net/artwork/kadabra.jpg",
+        "types": [
+          "Psychic"
+        ],
+        "classification": "Psi Pokémon",
+        "weaknesses": [
+          "Bug",
+          "Ghost",
+          "Dark"
+        ],
+        "resistant": [
+          "Fighting",
+          "Psychic"
+        ]
+      },
+      {
+        "number": "065",
+        "name": "Alakazam",
+        "image": "https://img.pokemondb.net/artwork/alakazam.jpg",
+        "types": [
+          "Psychic"
+        ],
+        "classification": "Psi Pokémon",
+        "weaknesses": [
+          "Bug",
+          "Ghost",
+          "Dark"
+        ],
+        "resistant": [
+          "Fighting",
+          "Psychic"
+        ]
+      },
+      {
+        "number": "066",
+        "name": "Machop",
+        "image": "https://img.pokemondb.net/artwork/machop.jpg",
+        "types": [
+          "Fighting"
+        ],
+        "classification": "Superpower Pokémon",
+        "weaknesses": [
+          "Flying",
+          "Psychic",
+          "Fairy"
+        ],
+        "resistant": [
+          "Bug",
+          "Rock",
+          "Dark"
+        ]
+      },
+      {
+        "number": "067",
+        "name": "Machoke",
+        "image": "https://img.pokemondb.net/artwork/machoke.jpg",
+        "types": [
+          "Fighting"
+        ],
+        "classification": "Superpower Pokémon",
+        "weaknesses": [
+          "Flying",
+          "Psychic",
+          "Fairy"
+        ],
+        "resistant": [
+          "Bug",
+          "Rock",
+          "Dark"
+        ]
+      },
+      {
+        "number": "068",
+        "name": "Machamp",
+        "image": "https://img.pokemondb.net/artwork/machamp.jpg",
+        "types": [
+          "Fighting"
+        ],
+        "classification": "Superpower Pokémon",
+        "weaknesses": [
+          "Flying",
+          "Psychic",
+          "Fairy"
+        ],
+        "resistant": [
+          "Bug",
+          "Rock",
+          "Dark"
+        ]
+      },
+      {
+        "number": "069",
+        "name": "Bellsprout",
+        "image": "https://img.pokemondb.net/artwork/bellsprout.jpg",
+        "types": [
+          "Grass",
+          "Poison"
+        ],
+        "classification": "Flower Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Ice",
+          "Flying",
+          "Psychic"
+        ],
+        "resistant": [
+          "Water",
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "070",
+        "name": "Weepinbell",
+        "image": "https://img.pokemondb.net/artwork/weepinbell.jpg",
+        "types": [
+          "Grass",
+          "Poison"
+        ],
+        "classification": "Flycatcher Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Ice",
+          "Flying",
+          "Psychic"
+        ],
+        "resistant": [
+          "Water",
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "071",
+        "name": "Victreebel",
+        "image": "https://img.pokemondb.net/artwork/victreebel.jpg",
+        "types": [
+          "Grass",
+          "Poison"
+        ],
+        "classification": "Flycatcher Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Ice",
+          "Flying",
+          "Psychic"
+        ],
+        "resistant": [
+          "Water",
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "072",
+        "name": "Tentacool",
+        "image": "https://img.pokemondb.net/artwork/tentacool.jpg",
+        "types": [
+          "Water",
+          "Poison"
+        ],
+        "classification": "Jellyfish Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Ground",
+          "Psychic"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Steel",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "073",
+        "name": "Tentacruel",
+        "image": "https://img.pokemondb.net/artwork/tentacruel.jpg",
+        "types": [
+          "Water",
+          "Poison"
+        ],
+        "classification": "Jellyfish Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Ground",
+          "Psychic"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Steel",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "074",
+        "name": "Geodude",
+        "image": "https://img.pokemondb.net/artwork/geodude.jpg",
+        "types": [
+          "Rock",
+          "Ground"
+        ],
+        "classification": "Rock Pokémon",
+        "weaknesses": [
+          "Water",
+          "Grass",
+          "Ice",
+          "Fighting",
+          "Ground",
+          "Steel"
+        ],
+        "resistant": [
+          "Normal",
+          "Fire",
+          "Electric",
+          "Poison",
+          "Flying",
+          "Rock"
+        ]
+      },
+      {
+        "number": "075",
+        "name": "Graveler",
+        "image": "https://img.pokemondb.net/artwork/graveler.jpg",
+        "types": [
+          "Rock",
+          "Ground"
+        ],
+        "classification": "Rock Pokémon",
+        "weaknesses": [
+          "Water",
+          "Grass",
+          "Ice",
+          "Fighting",
+          "Ground",
+          "Steel"
+        ],
+        "resistant": [
+          "Normal",
+          "Fire",
+          "Electric",
+          "Poison",
+          "Flying",
+          "Rock"
+        ]
+      },
+      {
+        "number": "076",
+        "name": "Golem",
+        "image": "https://img.pokemondb.net/artwork/golem.jpg",
+        "types": [
+          "Rock",
+          "Ground"
+        ],
+        "classification": "Megaton Pokémon",
+        "weaknesses": [
+          "Water",
+          "Grass",
+          "Ice",
+          "Fighting",
+          "Ground",
+          "Steel"
+        ],
+        "resistant": [
+          "Normal",
+          "Fire",
+          "Electric",
+          "Poison",
+          "Flying",
+          "Rock"
+        ]
+      },
+      {
+        "number": "077",
+        "name": "Ponyta",
+        "image": "https://img.pokemondb.net/artwork/ponyta.jpg",
+        "types": [
+          "Fire"
+        ],
+        "classification": "Fire Horse Pokémon",
+        "weaknesses": [
+          "Water",
+          "Ground",
+          "Rock"
+        ],
+        "resistant": [
+          "Fire",
+          "Grass",
+          "Ice",
+          "Bug",
+          "Steel",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "078",
+        "name": "Rapidash",
+        "image": "https://img.pokemondb.net/artwork/rapidash.jpg",
+        "types": [
+          "Fire"
+        ],
+        "classification": "Fire Horse Pokémon",
+        "weaknesses": [
+          "Water",
+          "Ground",
+          "Rock"
+        ],
+        "resistant": [
+          "Fire",
+          "Grass",
+          "Ice",
+          "Bug",
+          "Steel",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "079",
+        "name": "Slowpoke",
+        "image": "https://img.pokemondb.net/artwork/slowpoke.jpg",
+        "types": [
+          "Water",
+          "Psychic"
+        ],
+        "classification": "Dopey Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass",
+          "Bug",
+          "Ghost",
+          "Dark"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Fighting",
+          "Psychic",
+          "Steel"
+        ]
+      },
+      {
+        "number": "080",
+        "name": "Slowbro",
+        "image": "https://img.pokemondb.net/artwork/slowbro.jpg",
+        "types": [
+          "Water",
+          "Psychic"
+        ],
+        "classification": "Hermit Crab Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass",
+          "Bug",
+          "Ghost",
+          "Dark"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Fighting",
+          "Psychic",
+          "Steel"
+        ]
+      },
+      {
+        "number": "081",
+        "name": "Magnemite",
+        "image": "https://img.pokemondb.net/artwork/magnemite.jpg",
+        "types": [
+          "Electric",
+          "Steel"
+        ],
+        "classification": "Magnet Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Fighting",
+          "Ground"
+        ],
+        "resistant": [
+          "Normal",
+          "Electric",
+          "Grass",
+          "Ice",
+          "Poison",
+          "Flying",
+          "Psychic",
+          "Bug",
+          "Rock",
+          "Dragon",
+          "Steel",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "082",
+        "name": "Magneton",
+        "image": "https://img.pokemondb.net/artwork/magneton.jpg",
+        "types": [
+          "Electric",
+          "Steel"
+        ],
+        "classification": "Magnet Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Fighting",
+          "Ground"
+        ],
+        "resistant": [
+          "Normal",
+          "Electric",
+          "Grass",
+          "Ice",
+          "Poison",
+          "Flying",
+          "Psychic",
+          "Bug",
+          "Rock",
+          "Dragon",
+          "Steel",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "083",
+        "name": "Farfetch'd",
+        "image": "https://img.pokemondb.net/artwork/farfetchd.jpg",
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "classification": "Wild Duck Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Ice",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Ground",
+          "Bug",
+          "Ghost"
+        ]
+      },
+      {
+        "number": "084",
+        "name": "Doduo",
+        "image": "https://img.pokemondb.net/artwork/doduo.jpg",
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "classification": "Twin Bird Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Ice",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Ground",
+          "Bug",
+          "Ghost"
+        ]
+      },
+      {
+        "number": "085",
+        "name": "Dodrio",
+        "image": "https://img.pokemondb.net/artwork/dodrio.jpg",
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "classification": "Triple Bird Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Ice",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Ground",
+          "Bug",
+          "Ghost"
+        ]
+      },
+      {
+        "number": "086",
+        "name": "Seel",
+        "image": "https://img.pokemondb.net/artwork/seel.jpg",
+        "types": [
+          "Water"
+        ],
+        "classification": "Sea Lion Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Steel"
+        ]
+      },
+      {
+        "number": "087",
+        "name": "Dewgong",
+        "image": "https://img.pokemondb.net/artwork/dewgong.jpg",
+        "types": [
+          "Water",
+          "Ice"
+        ],
+        "classification": "Sea Lion Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Rock"
+        ],
+        "resistant": [
+          "Water",
+          "Ice"
+        ]
+      },
+      {
+        "number": "088",
+        "name": "Grimer",
+        "image": "https://img.pokemondb.net/artwork/grimer.jpg",
+        "types": [
+          "Poison"
+        ],
+        "classification": "Sludge Pokémon",
+        "weaknesses": [
+          "Ground",
+          "Psychic"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "089",
+        "name": "Muk",
+        "image": "https://img.pokemondb.net/artwork/muk.jpg",
+        "types": [
+          "Poison"
+        ],
+        "classification": "Sludge Pokémon",
+        "weaknesses": [
+          "Ground",
+          "Psychic"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "090",
+        "name": "Shellder",
+        "image": "https://img.pokemondb.net/artwork/shellder.jpg",
+        "types": [
+          "Water"
+        ],
+        "classification": "Bivalve Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Steel"
+        ]
+      },
+      {
+        "number": "091",
+        "name": "Cloyster",
+        "image": "https://img.pokemondb.net/artwork/cloyster.jpg",
+        "types": [
+          "Water",
+          "Ice"
+        ],
+        "classification": "Bivalve Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Rock"
+        ],
+        "resistant": [
+          "Water",
+          "Ice"
+        ]
+      },
+      {
+        "number": "092",
+        "name": "Gastly",
+        "image": "https://img.pokemondb.net/artwork/gastly.jpg",
+        "types": [
+          "Ghost",
+          "Poison"
+        ],
+        "classification": "Gas Pokémon",
+        "weaknesses": [
+          "Ground",
+          "Psychic",
+          "Ghost",
+          "Dark"
+        ],
+        "resistant": [
+          "Normal",
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "093",
+        "name": "Haunter",
+        "image": "https://img.pokemondb.net/artwork/haunter.jpg",
+        "types": [
+          "Ghost",
+          "Poison"
+        ],
+        "classification": "Gas Pokémon",
+        "weaknesses": [
+          "Ground",
+          "Psychic",
+          "Ghost",
+          "Dark"
+        ],
+        "resistant": [
+          "Normal",
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "094",
+        "name": "Gengar",
+        "image": "https://img.pokemondb.net/artwork/gengar.jpg",
+        "types": [
+          "Ghost",
+          "Poison"
+        ],
+        "classification": "Shadow Pokémon",
+        "weaknesses": [
+          "Ground",
+          "Psychic",
+          "Ghost",
+          "Dark"
+        ],
+        "resistant": [
+          "Normal",
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "095",
+        "name": "Onix",
+        "image": "https://img.pokemondb.net/artwork/onix.jpg",
+        "types": [
+          "Rock",
+          "Ground"
+        ],
+        "classification": "Rock Snake Pokémon",
+        "weaknesses": [
+          "Water",
+          "Grass",
+          "Ice",
+          "Fighting",
+          "Ground",
+          "Steel"
+        ],
+        "resistant": [
+          "Normal",
+          "Fire",
+          "Electric",
+          "Poison",
+          "Flying",
+          "Rock"
+        ]
+      },
+      {
+        "number": "096",
+        "name": "Drowzee",
+        "image": "https://img.pokemondb.net/artwork/drowzee.jpg",
+        "types": [
+          "Psychic"
+        ],
+        "classification": "Hypnosis Pokémon",
+        "weaknesses": [
+          "Bug",
+          "Ghost",
+          "Dark"
+        ],
+        "resistant": [
+          "Fighting",
+          "Psychic"
+        ]
+      },
+      {
+        "number": "097",
+        "name": "Hypno",
+        "image": "https://img.pokemondb.net/artwork/hypno.jpg",
+        "types": [
+          "Psychic"
+        ],
+        "classification": "Hypnosis Pokémon",
+        "weaknesses": [
+          "Bug",
+          "Ghost",
+          "Dark"
+        ],
+        "resistant": [
+          "Fighting",
+          "Psychic"
+        ]
+      },
+      {
+        "number": "098",
+        "name": "Krabby",
+        "image": "https://img.pokemondb.net/artwork/krabby.jpg",
+        "types": [
+          "Water"
+        ],
+        "classification": "River Crab Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Steel"
+        ]
+      },
+      {
+        "number": "099",
+        "name": "Kingler",
+        "image": "https://img.pokemondb.net/artwork/kingler.jpg",
+        "types": [
+          "Water"
+        ],
+        "classification": "Pincer Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Steel"
+        ]
+      },
+      {
+        "number": "100",
+        "name": "Voltorb",
+        "image": "https://img.pokemondb.net/artwork/voltorb.jpg",
+        "types": [
+          "Electric"
+        ],
+        "classification": "Ball Pokémon",
+        "weaknesses": [
+          "Ground"
+        ],
+        "resistant": [
+          "Electric",
+          "Flying",
+          "Steel"
+        ]
+      },
+      {
+        "number": "101",
+        "name": "Electrode",
+        "image": "https://img.pokemondb.net/artwork/electrode.jpg",
+        "types": [
+          "Electric"
+        ],
+        "classification": "Ball Pokémon",
+        "weaknesses": [
+          "Ground"
+        ],
+        "resistant": [
+          "Electric",
+          "Flying",
+          "Steel"
+        ]
+      },
+      {
+        "number": "102",
+        "name": "Exeggcute",
+        "image": "https://img.pokemondb.net/artwork/exeggcute.jpg",
+        "types": [
+          "Grass",
+          "Psychic"
+        ],
+        "classification": "Egg Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Ice",
+          "Poison",
+          "Flying",
+          "Bug",
+          "Ghost",
+          "Dark"
+        ],
+        "resistant": [
+          "Water",
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Ground",
+          "Psychic"
+        ]
+      },
+      {
+        "number": "103",
+        "name": "Exeggutor",
+        "image": "https://img.pokemondb.net/artwork/exeggutor.jpg",
+        "types": [
+          "Grass",
+          "Psychic"
+        ],
+        "classification": "Coconut Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Ice",
+          "Poison",
+          "Flying",
+          "Bug",
+          "Ghost",
+          "Dark"
+        ],
+        "resistant": [
+          "Water",
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Ground",
+          "Psychic"
+        ]
+      },
+      {
+        "number": "104",
+        "name": "Cubone",
+        "image": "https://img.pokemondb.net/artwork/cubone.jpg",
+        "types": [
+          "Ground"
+        ],
+        "classification": "Lonely Pokémon",
+        "weaknesses": [
+          "Water",
+          "Grass",
+          "Ice"
+        ],
+        "resistant": [
+          "Electric",
+          "Poison",
+          "Rock"
+        ]
+      },
+      {
+        "number": "105",
+        "name": "Marowak",
+        "image": "https://img.pokemondb.net/artwork/marowak.jpg",
+        "types": [
+          "Ground"
+        ],
+        "classification": "Bone Keeper Pokémon",
+        "weaknesses": [
+          "Water",
+          "Grass",
+          "Ice"
+        ],
+        "resistant": [
+          "Electric",
+          "Poison",
+          "Rock"
+        ]
+      },
+      {
+        "number": "106",
+        "name": "Hitmonlee",
+        "image": "https://img.pokemondb.net/artwork/hitmonlee.jpg",
+        "types": [
+          "Fighting"
+        ],
+        "classification": "Kicking Pokémon",
+        "weaknesses": [
+          "Flying",
+          "Psychic",
+          "Fairy"
+        ],
+        "resistant": [
+          "Bug",
+          "Rock",
+          "Dark"
+        ]
+      },
+      {
+        "number": "107",
+        "name": "Hitmonchan",
+        "image": "https://img.pokemondb.net/artwork/hitmonchan.jpg",
+        "types": [
+          "Fighting"
+        ],
+        "classification": "Punching Pokémon",
+        "weaknesses": [
+          "Flying",
+          "Psychic",
+          "Fairy"
+        ],
+        "resistant": [
+          "Bug",
+          "Rock",
+          "Dark"
+        ]
+      },
+      {
+        "number": "108",
+        "name": "Lickitung",
+        "image": "https://img.pokemondb.net/artwork/lickitung.jpg",
+        "types": [
+          "Normal"
+        ],
+        "classification": "Licking Pokémon",
+        "weaknesses": [
+          "Fighting"
+        ],
+        "resistant": [
+          "Ghost"
+        ]
+      },
+      {
+        "number": "109",
+        "name": "Koffing",
+        "image": "https://img.pokemondb.net/artwork/koffing.jpg",
+        "types": [
+          "Poison"
+        ],
+        "classification": "Poison Gas Pokémon",
+        "weaknesses": [
+          "Ground",
+          "Psychic"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "110",
+        "name": "Weezing",
+        "image": "https://img.pokemondb.net/artwork/weezing.jpg",
+        "types": [
+          "Poison"
+        ],
+        "classification": "Poison Gas Pokémon",
+        "weaknesses": [
+          "Ground",
+          "Psychic"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "111",
+        "name": "Rhyhorn",
+        "image": "https://img.pokemondb.net/artwork/rhyhorn.jpg",
+        "types": [
+          "Ground",
+          "Rock"
+        ],
+        "classification": "Spikes Pokémon",
+        "weaknesses": [
+          "Water",
+          "Grass",
+          "Ice",
+          "Fighting",
+          "Ground",
+          "Steel"
+        ],
+        "resistant": [
+          "Normal",
+          "Fire",
+          "Electric",
+          "Poison",
+          "Flying",
+          "Rock"
+        ]
+      },
+      {
+        "number": "112",
+        "name": "Rhydon",
+        "image": "https://img.pokemondb.net/artwork/rhydon.jpg",
+        "types": [
+          "Ground",
+          "Rock"
+        ],
+        "classification": "Drill Pokémon",
+        "weaknesses": [
+          "Water",
+          "Grass",
+          "Ice",
+          "Fighting",
+          "Ground",
+          "Steel"
+        ],
+        "resistant": [
+          "Normal",
+          "Fire",
+          "Electric",
+          "Poison",
+          "Flying",
+          "Rock"
+        ]
+      },
+      {
+        "number": "113",
+        "name": "Chansey",
+        "image": "https://img.pokemondb.net/artwork/chansey.jpg",
+        "types": [
+          "Normal"
+        ],
+        "classification": "Egg Pokémon",
+        "weaknesses": [
+          "Fighting"
+        ],
+        "resistant": [
+          "Ghost"
+        ]
+      },
+      {
+        "number": "114",
+        "name": "Tangela",
+        "image": "https://img.pokemondb.net/artwork/tangela.jpg",
+        "types": [
+          "Grass"
+        ],
+        "classification": "Vine Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Ice",
+          "Poison",
+          "Flying",
+          "Bug"
+        ],
+        "resistant": [
+          "Water",
+          "Electric",
+          "Grass",
+          "Ground"
+        ]
+      },
+      {
+        "number": "115",
+        "name": "Kangaskhan",
+        "image": "https://img.pokemondb.net/artwork/kangaskhan.jpg",
+        "types": [
+          "Normal"
+        ],
+        "classification": "Parent Pokémon",
+        "weaknesses": [
+          "Fighting"
+        ],
+        "resistant": [
+          "Ghost"
+        ]
+      },
+      {
+        "number": "116",
+        "name": "Horsea",
+        "image": "https://img.pokemondb.net/artwork/horsea.jpg",
+        "types": [
+          "Water"
+        ],
+        "classification": "Dragon Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Steel"
+        ]
+      },
+      {
+        "number": "117",
+        "name": "Seadra",
+        "image": "https://img.pokemondb.net/artwork/seadra.jpg",
+        "types": [
+          "Water"
+        ],
+        "classification": "Dragon Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Steel"
+        ]
+      },
+      {
+        "number": "118",
+        "name": "Goldeen",
+        "image": "https://img.pokemondb.net/artwork/goldeen.jpg",
+        "types": [
+          "Water"
+        ],
+        "classification": "Goldfish Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Steel"
+        ]
+      },
+      {
+        "number": "119",
+        "name": "Seaking",
+        "image": "https://img.pokemondb.net/artwork/seaking.jpg",
+        "types": [
+          "Water"
+        ],
+        "classification": "Goldfish Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Steel"
+        ]
+      },
+      {
+        "number": "120",
+        "name": "Staryu",
+        "image": "https://img.pokemondb.net/artwork/staryu.jpg",
+        "types": [
+          "Water"
+        ],
+        "classification": "Starshape Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Steel"
+        ]
+      },
+      {
+        "number": "121",
+        "name": "Starmie",
+        "image": "https://img.pokemondb.net/artwork/starmie.jpg",
+        "types": [
+          "Water",
+          "Psychic"
+        ],
+        "classification": "Mysterious Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass",
+          "Bug",
+          "Ghost",
+          "Dark"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Fighting",
+          "Psychic",
+          "Steel"
+        ]
+      },
+      {
+        "number": "122",
+        "name": "Mr. Mime",
+        "image": "https://img.pokemondb.net/artwork/mr-mime.jpg",
+        "types": [
+          "Psychic",
+          "Fairy"
+        ],
+        "classification": "Barrier Pokémon",
+        "weaknesses": [
+          "Poison",
+          "Ghost",
+          "Steel"
+        ],
+        "resistant": [
+          "Fighting",
+          "Psychic",
+          "Dragon"
+        ]
+      },
+      {
+        "number": "123",
+        "name": "Scyther",
+        "image": "https://img.pokemondb.net/artwork/scyther.jpg",
+        "types": [
+          "Bug",
+          "Flying"
+        ],
+        "classification": "Mantis Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Electric",
+          "Ice",
+          "Flying",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Ground",
+          "Bug"
+        ]
+      },
+      {
+        "number": "124",
+        "name": "Jynx",
+        "image": "https://img.pokemondb.net/artwork/jynx.jpg",
+        "types": [
+          "Ice",
+          "Psychic"
+        ],
+        "classification": "Humanshape Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Bug",
+          "Rock",
+          "Ghost",
+          "Dark",
+          "Steel"
+        ],
+        "resistant": [
+          "Ice",
+          "Psychic"
+        ]
+      },
+      {
+        "number": "125",
+        "name": "Electabuzz",
+        "image": "https://img.pokemondb.net/artwork/electabuzz.jpg",
+        "types": [
+          "Electric"
+        ],
+        "classification": "Electric Pokémon",
+        "weaknesses": [
+          "Ground"
+        ],
+        "resistant": [
+          "Electric",
+          "Flying",
+          "Steel"
+        ]
+      },
+      {
+        "number": "126",
+        "name": "Magmar",
+        "image": "https://img.pokemondb.net/artwork/magmar.jpg",
+        "types": [
+          "Fire"
+        ],
+        "classification": "Spitfire Pokémon",
+        "weaknesses": [
+          "Water",
+          "Ground",
+          "Rock"
+        ],
+        "resistant": [
+          "Fire",
+          "Grass",
+          "Ice",
+          "Bug",
+          "Steel",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "127",
+        "name": "Pinsir",
+        "image": "https://img.pokemondb.net/artwork/pinsir.jpg",
+        "types": [
+          "Bug"
+        ],
+        "classification": "Stagbeetle Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Flying",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Ground"
+        ]
+      },
+      {
+        "number": "128",
+        "name": "Tauros",
+        "image": "https://img.pokemondb.net/artwork/tauros.jpg",
+        "types": [
+          "Normal"
+        ],
+        "classification": "Wild Bull Pokémon",
+        "weaknesses": [
+          "Fighting"
+        ],
+        "resistant": [
+          "Ghost"
+        ]
+      },
+      {
+        "number": "129",
+        "name": "Magikarp",
+        "image": "https://img.pokemondb.net/artwork/magikarp.jpg",
+        "types": [
+          "Water"
+        ],
+        "classification": "Fish Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Steel"
+        ]
+      },
+      {
+        "number": "130",
+        "name": "Gyarados",
+        "image": "https://img.pokemondb.net/artwork/gyarados.jpg",
+        "types": [
+          "Water",
+          "Flying"
+        ],
+        "classification": "Atrocious Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Rock"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Fighting",
+          "Ground",
+          "Bug",
+          "Steel"
+        ]
+      },
+      {
+        "number": "131",
+        "name": "Lapras",
+        "image": "https://img.pokemondb.net/artwork/lapras.jpg",
+        "types": [
+          "Water",
+          "Ice"
+        ],
+        "classification": "Transport Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Rock"
+        ],
+        "resistant": [
+          "Water",
+          "Ice"
+        ]
+      },
+      {
+        "number": "132",
+        "name": "Ditto",
+        "image": "https://img.pokemondb.net/artwork/ditto.jpg",
+        "types": [
+          "Normal"
+        ],
+        "classification": "Transform Pokémon",
+        "weaknesses": [
+          "Fighting"
+        ],
+        "resistant": [
+          "Ghost"
+        ]
+      },
+      {
+        "number": "133",
+        "name": "Eevee",
+        "image": "https://img.pokemondb.net/artwork/eevee.jpg",
+        "types": [
+          "Normal"
+        ],
+        "classification": "Evolution Pokémon",
+        "weaknesses": [
+          "Fighting"
+        ],
+        "resistant": [
+          "Ghost"
+        ]
+      },
+      {
+        "number": "134",
+        "name": "Vaporeon",
+        "image": "https://img.pokemondb.net/artwork/vaporeon.jpg",
+        "types": [
+          "Water"
+        ],
+        "classification": "Bubble Jet Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Steel"
+        ]
+      },
+      {
+        "number": "135",
+        "name": "Jolteon",
+        "image": "https://img.pokemondb.net/artwork/jolteon.jpg",
+        "types": [
+          "Electric"
+        ],
+        "classification": "Lightning Pokémon",
+        "weaknesses": [
+          "Ground"
+        ],
+        "resistant": [
+          "Electric",
+          "Flying",
+          "Steel"
+        ]
+      },
+      {
+        "number": "136",
+        "name": "Flareon",
+        "image": "https://img.pokemondb.net/artwork/flareon.jpg",
+        "types": [
+          "Fire"
+        ],
+        "classification": "Flame Pokémon",
+        "weaknesses": [
+          "Water",
+          "Ground",
+          "Rock"
+        ],
+        "resistant": [
+          "Fire",
+          "Grass",
+          "Ice",
+          "Bug",
+          "Steel",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "137",
+        "name": "Porygon",
+        "image": "https://img.pokemondb.net/artwork/porygon.jpg",
+        "types": [
+          "Normal"
+        ],
+        "classification": "Virtual Pokémon",
+        "weaknesses": [
+          "Fighting"
+        ],
+        "resistant": [
+          "Ghost"
+        ]
+      },
+      {
+        "number": "138",
+        "name": "Omanyte",
+        "image": "https://img.pokemondb.net/artwork/omanyte.jpg",
+        "types": [
+          "Rock",
+          "Water"
+        ],
+        "classification": "Spiral Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Ground"
+        ],
+        "resistant": [
+          "Normal",
+          "Fire",
+          "Ice",
+          "Poison",
+          "Flying"
+        ]
+      },
+      {
+        "number": "139",
+        "name": "Omastar",
+        "image": "https://img.pokemondb.net/artwork/omastar.jpg",
+        "types": [
+          "Rock",
+          "Water"
+        ],
+        "classification": "Spiral Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Ground"
+        ],
+        "resistant": [
+          "Normal",
+          "Fire",
+          "Ice",
+          "Poison",
+          "Flying"
+        ]
+      },
+      {
+        "number": "140",
+        "name": "Kabuto",
+        "image": "https://img.pokemondb.net/artwork/kabuto.jpg",
+        "types": [
+          "Rock",
+          "Water"
+        ],
+        "classification": "Shellfish Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Ground"
+        ],
+        "resistant": [
+          "Normal",
+          "Fire",
+          "Ice",
+          "Poison",
+          "Flying"
+        ]
+      },
+      {
+        "number": "141",
+        "name": "Kabutops",
+        "image": "https://img.pokemondb.net/artwork/kabutops.jpg",
+        "types": [
+          "Rock",
+          "Water"
+        ],
+        "classification": "Shellfish Pokémon",
+        "weaknesses": [
+          "Electric",
+          "Grass",
+          "Fighting",
+          "Ground"
+        ],
+        "resistant": [
+          "Normal",
+          "Fire",
+          "Ice",
+          "Poison",
+          "Flying"
+        ]
+      },
+      {
+        "number": "142",
+        "name": "Aerodactyl",
+        "image": "https://img.pokemondb.net/artwork/aerodactyl.jpg",
+        "types": [
+          "Rock",
+          "Flying"
+        ],
+        "classification": "Fossil Pokémon",
+        "weaknesses": [
+          "Water",
+          "Electric",
+          "Ice",
+          "Rock",
+          "Steel"
+        ],
+        "resistant": [
+          "Normal",
+          "Fire",
+          "Poison",
+          "Flying",
+          "Bug"
+        ]
+      },
+      {
+        "number": "143",
+        "name": "Snorlax",
+        "image": "https://img.pokemondb.net/artwork/snorlax.jpg",
+        "types": [
+          "Normal"
+        ],
+        "classification": "Sleeping Pokémon",
+        "weaknesses": [
+          "Fighting"
+        ],
+        "resistant": [
+          "Ghost"
+        ]
+      },
+      {
+        "number": "144",
+        "name": "Articuno",
+        "image": "https://img.pokemondb.net/artwork/articuno.jpg",
+        "types": [
+          "Ice",
+          "Flying"
+        ],
+        "classification": "Freeze Pokémon",
+        "weaknesses": [
+          "Fire",
+          "Electric",
+          "Rock",
+          "Steel"
+        ],
+        "resistant": [
+          "Grass",
+          "Ground",
+          "Bug"
+        ]
+      },
+      {
+        "number": "145",
+        "name": "Zapdos",
+        "image": "https://img.pokemondb.net/artwork/zapdos.jpg",
+        "types": [
+          "Electric",
+          "Flying"
+        ],
+        "classification": "Electric Pokémon",
+        "weaknesses": [
+          "Ice",
+          "Rock"
+        ],
+        "resistant": [
+          "Grass",
+          "Fighting",
+          "Flying",
+          "Bug",
+          "Steel"
+        ]
+      },
+      {
+        "number": "146",
+        "name": "Moltres",
+        "image": "https://img.pokemondb.net/artwork/moltres.jpg",
+        "types": [
+          "Fire",
+          "Flying"
+        ],
+        "classification": "Flame Pokémon",
+        "weaknesses": [
+          "Water",
+          "Electric",
+          "Rock"
+        ],
+        "resistant": [
+          "Fire",
+          "Grass",
+          "Fighting",
+          "Bug",
+          "Steel",
+          "Fairy"
+        ]
+      },
+      {
+        "number": "147",
+        "name": "Dratini",
+        "image": "https://img.pokemondb.net/artwork/dratini.jpg",
+        "types": [
+          "Dragon"
+        ],
+        "classification": "Dragon Pokémon",
+        "weaknesses": [
+          "Ice",
+          "Dragon",
+          "Fairy"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Electric",
+          "Grass"
+        ]
+      },
+      {
+        "number": "148",
+        "name": "Dragonair",
+        "image": "https://img.pokemondb.net/artwork/dragonair.jpg",
+        "types": [
+          "Dragon"
+        ],
+        "classification": "Dragon Pokémon",
+        "weaknesses": [
+          "Ice",
+          "Dragon",
+          "Fairy"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Electric",
+          "Grass"
+        ]
+      },
+      {
+        "number": "149",
+        "name": "Dragonite",
+        "image": "https://img.pokemondb.net/artwork/dragonite.jpg",
+        "types": [
+          "Dragon",
+          "Flying"
+        ],
+        "classification": "Dragon Pokémon",
+        "weaknesses": [
+          "Ice",
+          "Rock",
+          "Dragon",
+          "Fairy"
+        ],
+        "resistant": [
+          "Fire",
+          "Water",
+          "Grass",
+          "Fighting",
+          "Ground",
+          "Bug"
+        ]
+      },
+      {
+        "number": "150",
+        "name": "Mewtwo",
+        "image": "https://img.pokemondb.net/artwork/mewtwo.jpg",
+        "types": [
+          "Psychic"
+        ],
+        "classification": "Genetic Pokémon",
+        "weaknesses": [
+          "Bug",
+          "Ghost",
+          "Dark"
+        ],
+        "resistant": [
+          "Fighting",
+          "Psychic"
+        ]
+      },
+      {
+        "number": "151",
+        "name": "Mew",
+        "image": "https://img.pokemondb.net/artwork/mew.jpg",
+        "types": [
+          "Psychic"
+        ],
+        "classification": "New Species Pokémon",
+        "weaknesses": [
+          "Bug",
+          "Ghost",
+          "Dark"
+        ],
+        "resistant": [
+          "Fighting",
+          "Psychic"
+        ]
+      }
+    ]
+  }
+}
