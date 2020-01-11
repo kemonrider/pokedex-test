@@ -1,8 +1,35 @@
 import React from "react";
-import { Row, Col, Card, Form, Select, Button } from "antd";
+import {
+  Row,
+  Col,
+  Card,
+  Form,
+  Select,
+  Button,
+  Spin,
+  message,
+  Empty
+} from "antd";
+import { gql } from "apollo-boost";
+import { useQuery } from "@apollo/react-hooks";
 import PokemonListComponent from "../component/PokemonList";
 import PokemonDetailComponent from "../component/PokemonDetail";
-import pokemonList from "../_mock/pokemonList.json";
+// import pokemonList from "../_mock/pokemonList.json"; // for development purpose
+
+// pokemon list query
+const POKEMON_LIST = gql`
+  {
+    pokemons(first: 151) {
+      number
+      name
+      image
+      types
+      classification
+      weaknesses
+      resistant
+    }
+  }
+`;
 
 // populate pokemon type from available pokemon list
 const populatePokemonType = pokemons => {
@@ -40,6 +67,7 @@ function HomeScreen() {
   const [filteredPokemonList, setFilteredPokemonList] = React.useState([]);
   const [modalShown, setModalShown] = React.useState(false);
   const [selectedPokemon, setSelectedPokemon] = React.useState({});
+  const { loading, error, data } = useQuery(POKEMON_LIST);
 
   // reset filter
   const resetFilter = () => {
@@ -50,35 +78,63 @@ function HomeScreen() {
 
   // on component init
   React.useEffect(() => {
-    setFilteredPokemonList(pokemonList.data.pokemons);
-    setTypeList(populatePokemonType(pokemonList.data.pokemons));
-  }, []);
+    if (!loading && data && data.pokemons.length) {
+      setFilteredPokemonList(data.pokemons);
+      setTypeList(populatePokemonType(data.pokemons));
+    }
+  }, [loading, data]);
 
   // filter pokemon on filter change
   React.useEffect(() => {
-    setFilteredPokemonList(
-      pokemonList.data.pokemons
-        .filter(pokemon => {
-          if (filterType) {
-            return pokemon.types.includes(filterType);
-          }
-          return true;
-        })
-        .filter(pokemon => {
-          if (filterWeakness) {
-            return pokemon.weaknesses.includes(filterWeakness);
-          }
-          return true;
-        })
-        .filter(pokemon => {
-          if (filterResistant) {
-            return pokemon.resistant.includes(filterResistant);
-          }
-          return true;
-        })
-    );
-  }, [filterType, filterWeakness, filterResistant]);
+    if (data && data.pokemons && data.pokemons.length) {
+      setFilteredPokemonList(
+        data.pokemons
+          .filter(pokemon => {
+            if (filterType) {
+              return pokemon.types.includes(filterType);
+            }
+            return true;
+          })
+          .filter(pokemon => {
+            if (filterWeakness) {
+              return pokemon.weaknesses.includes(filterWeakness);
+            }
+            return true;
+          })
+          .filter(pokemon => {
+            if (filterResistant) {
+              return pokemon.resistant.includes(filterResistant);
+            }
+            return true;
+          })
+      );
+    }
+  }, [filterType, filterWeakness, filterResistant, data]);
 
+  // if loading or error occured
+  if (loading || error) {
+    // show error message
+    if (error) {
+      message(error);
+    }
+
+    return (
+      <div
+        style={{
+          minHeight: 500,
+          textAlign: "center",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center"
+        }}
+      >
+        {loading && <Spin />}
+        {error && <Empty />}
+      </div>
+    );
+  }
+
+  // return if not loading
   return (
     <>
       <PokemonDetailComponent
