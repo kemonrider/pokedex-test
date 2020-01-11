@@ -5,7 +5,7 @@ import { Card, Empty, Row, Col } from "antd";
 const generatePokemonCards = pokemons => {
   return pokemons.map(pokemon => {
     return (
-      <Col span={4}>
+      <Col span={4} key={pokemon.number}>
         <Card title={pokemon.name} style={{ marginBottom: "10px" }}>
           <div
             style={{
@@ -37,7 +37,7 @@ PokemonList.propTypes = {
   pokemons: PropType.arrayOf(
     PropType.shape({
       name: PropType.string,
-      number: PropType.number,
+      number: PropType.oneOfType([PropType.string, PropType.number]),
       image: PropType.string,
       weaknesses: PropType.arrayOf(PropType.string),
       resistant: PropType.arrayOf(PropType.string)
