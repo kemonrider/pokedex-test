@@ -77,7 +77,7 @@ function HomeScreen() {
 
   return (
     <Row gutter={10}>
-      <Col span={4}>
+      <Col sm={4} style={{ marginBottom: 10 }}>
         <Card title="Filter">
           <Form>
             <Form.Item label="Types">
@@ -140,7 +140,7 @@ function HomeScreen() {
           </Form>
         </Card>
       </Col>
-      <Col span={20}>
+      <Col sm={20}>
         <PokemonListComponent pokemons={filteredPokemonList} />
       </Col>
     </Row>

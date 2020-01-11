@@ -5,7 +5,7 @@ import { Card, Empty, Row, Col } from "antd";
 const generatePokemonCards = pokemons => {
   return pokemons.map(pokemon => {
     return (
-      <Col span={4} key={pokemon.number}>
+      <Col xs={12} sm={4} key={pokemon.number}>
         <Card title={pokemon.name} style={{ marginBottom: "10px" }}>
           <div
             style={{
