@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Card, Form, Select, Button, Modal, Tag } from "antd";
+import { Row, Col, Card, Form, Select, Button } from "antd";
 import PokemonListComponent from "../component/PokemonList";
 import PokemonDetailComponent from "../component/PokemonDetail";
 import pokemonList from "../_mock/pokemonList.json";
