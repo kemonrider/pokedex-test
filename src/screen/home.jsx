@@ -3,39 +3,40 @@ import { Row, Col, Card, Form, Select, Button } from "antd";
 import PokemonListComponent from "../component/PokemonList";
 import pokemonList from "../_mock/pokemonList.json";
 
+// populate pokemon type from available pokemon list
+const populatePokemonType = pokemons => {
+  const types = [];
+
+  pokemons.forEach(pokemon => {
+    pokemon.types.forEach(type => {
+      if (!types.includes(type)) {
+        types.push(type);
+      }
+    });
+
+    pokemon.weaknesses.forEach(type => {
+      if (!types.includes(type)) {
+        types.push(type);
+      }
+    });
+
+    pokemon.resistant.forEach(type => {
+      if (!types.includes(type)) {
+        types.push(type);
+      }
+    });
+  });
+
+  return types;
+};
+
+// main component function
 function HomeScreen() {
   const [typeList, setTypeList] = React.useState([]);
   const [filterType, setFilterType] = React.useState("");
   const [filterWeakness, setFilterWeakness] = React.useState("");
   const [filterResistant, setFilterResistant] = React.useState("");
   const [filteredPokemonList, setFilteredPokemonList] = React.useState([]);
-
-  // populate pokemon type from available pokemon list
-  const populatePokemonType = () => {
-    const types = [];
-
-    pokemonList.data.pokemons.forEach(pokemon => {
-      pokemon.types.forEach(type => {
-        if (!types.includes(type)) {
-          types.push(type);
-        }
-      });
-
-      pokemon.weaknesses.forEach(type => {
-        if (!types.includes(type)) {
-          types.push(type);
-        }
-      });
-
-      pokemon.resistant.forEach(type => {
-        if (!types.includes(type)) {
-          types.push(type);
-        }
-      });
-    });
-
-    setTypeList(types);
-  };
 
   // reset filter
   const resetFilter = () => {
@@ -47,7 +48,7 @@ function HomeScreen() {
   // on component init
   React.useEffect(() => {
     setFilteredPokemonList(pokemonList.data.pokemons);
-    populatePokemonType();
+    setTypeList(populatePokemonType(pokemonList.data.pokemons));
   }, []);
 
   // filter pokemon on filter change
