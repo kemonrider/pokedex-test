@@ -8,7 +8,7 @@ function HomeScreen() {
   const [filterType, setFilterType] = React.useState("");
   const [filterWeakness, setFilterWeakness] = React.useState("");
   const [filterResistant, setFilterResistant] = React.useState("");
-  const [filteredPokemonList, setFilteredPokemonList] = React.useState("");
+  const [filteredPokemonList, setFilteredPokemonList] = React.useState([]);
 
   // populate pokemon type from available pokemon list
   const populatePokemonType = () => {
