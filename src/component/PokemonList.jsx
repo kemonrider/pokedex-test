@@ -6,8 +6,17 @@ const generatePokemonCards = pokemons => {
   return pokemons.map(pokemon => {
     return (
       <Col span={4}>
-        <Card cover={<img alt={pokemon.name} src={pokemon.image} />}>
-          <Card.Meta title={pokemon.name} />
+        <Card title={pokemon.name} style={{ marginBottom: "10px" }}>
+          <div
+            style={{
+              width: "100%",
+              paddingBottom: "100%",
+              backgroundPosition: "center center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "contain",
+              backgroundImage: `url(${pokemon.image})`
+            }}
+          />
         </Card>
       </Col>
     );
